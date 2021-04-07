@@ -1,5 +1,5 @@
-﻿#include<math.h>
-#include"seeed_graphics_base.h"
+﻿#include <math.h>
+#include "seeed_graphics_base.h"
 
 std::vector<color_t> classic_colors { 
     yellow,
@@ -12,7 +12,7 @@ std::vector<color_t> classic_colors {
 };
 
 constexpr double pi = 3.14159265358979323846;
-extern TFT_eSprite spr;
+extern LGFX_Sprite spr;
 
 namespace detail {
     void draw(void * poly, bool gen){

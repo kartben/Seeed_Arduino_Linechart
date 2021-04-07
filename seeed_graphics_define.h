@@ -1,6 +1,6 @@
 ﻿#pragma once
 #define null16          32767
-#include<TFT_eSPI.h>
+#include <LovyanGFX.hpp>
 #pragma push(max)
 #pragma push(min)
 #undef max
